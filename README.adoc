@@ -1,0 +1,10 @@
+# SimpleRestServerExample
+
+= How to Test
+
+Use Curl to test your rest API: https://curl.haxx.se/. Add the curl bin folder to **path** variable.
+
+== Examples
+
+  curl -i -X GET http://localhost:9696/api/testerState
+  curl -i -X PUT http://localhost:9696/api/measurement/start/0815
